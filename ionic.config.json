@@ -1,0 +1,7 @@
+{
+  "name": "ezyshoplist",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
