@@ -1,0 +1,56 @@
+ion-item {
+    --background: #F1F1F1;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.header {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: center;
+
+    .title {
+        font-size: 2rem;
+    }
+
+    .subtitle {
+        font-size: 0.9rem;
+        color: #808080;
+    }
+}
+
+.input {
+    font-size: 300;
+}
+
+.create-account {
+    display: flex;
+    margin: auto;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    justify-content: center;
+    width: 80%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    p {
+        font-size: 0.9rem;
+    }
+
+    a {
+        text-decoration: none;
+    }
+}
+
+.forgot-password {
+    display: flex;
+    justify-content: flex-end;
+
+    a {
+        font-weight: 400;
+        font-size: 0.8rem;
+        text-decoration: none;
+    }
+}
